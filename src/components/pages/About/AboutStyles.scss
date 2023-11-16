@@ -1,0 +1,9 @@
+@use '../../../_colors.scss' as *;
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  background-color: white;
+}

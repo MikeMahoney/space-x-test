@@ -1,0 +1,44 @@
+@use '../../../../../_colors.scss' as *;
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: white;
+  h3 {
+    font-family: 'Raleway';
+    margin: 0;
+    font-size: 2em;
+  }
+  &__manufacturers {
+    margin-bottom: 20px;
+    span {
+      font-weight: 600;
+    }
+    span:not(:last-child) {
+      &::after {
+        content: ', ';
+      }
+    }
+  }
+  &__payloads {
+    li {
+      color: $color-night-blue;
+      font-weight: 600;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+  &__links {
+    a {
+      word-wrap: break-word;
+    }
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+}

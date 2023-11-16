@@ -1,0 +1,11 @@
+@use '../../../_colors.scss' as *;
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+  &__content {
+    overflow-y: auto;
+  }
+}

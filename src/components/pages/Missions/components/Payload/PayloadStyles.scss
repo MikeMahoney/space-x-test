@@ -1,0 +1,14 @@
+@use '../../../../../_colors.scss' as *;
+
+.payload {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  &__details {
+    &__item {
+      span:first-child {
+        font-weight: 600;
+      }
+    }
+  }
+}

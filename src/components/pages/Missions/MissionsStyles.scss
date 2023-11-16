@@ -1,0 +1,16 @@
+@use '../../../_colors.scss' as *;
+
+.missions {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80vw;
+  }
+  &__blank {
+    color: white;
+  }
+}

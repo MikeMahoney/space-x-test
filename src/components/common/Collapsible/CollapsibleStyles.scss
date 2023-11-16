@@ -1,0 +1,18 @@
+.collapsible {
+  font-weight: 600;
+  margin-top: 3px;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    height: 30px;
+    padding-right: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__caret {
+    font-size: 15px;
+  }
+}
