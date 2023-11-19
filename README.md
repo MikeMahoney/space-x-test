@@ -13,6 +13,7 @@ Project is created with:
 - SpaceX API
 - react-toastify
 - react-responsive-modal
+- react-media
 
 ## Setup
 
