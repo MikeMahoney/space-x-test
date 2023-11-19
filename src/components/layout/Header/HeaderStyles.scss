@@ -1,27 +1,55 @@
 @use '../../../_colors.scss' as *;
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 30px;
-  border-bottom: 1px solid white;
-  background-color: black;
   font-family: 'Raleway';
-  color: white;
-  &__title {
+  &__main {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid white;
+    background-color: black;
     color: white;
-    font-size: 2em;
-    text-decoration: none;
-    margin-right: 20px;
+    &__title {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 2em;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+    &__nav {
+      display: flex;
+      gap: 10px;
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        &:hover {
+          color: $color-night-blue;
+        }
+      }
+    }
+    &__mobile-button {
+      background-color: black;
+      border: none;
+      svg {
+        width: 32px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
-  &__nav {
+  &__mobile-menu {
     display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    align-items: flex-end;
     gap: 10px;
     a {
-      color: white;
+      color: black;
       text-decoration: none;
       font-weight: 600;
       &:hover {

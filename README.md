@@ -27,5 +27,4 @@ $ npm start
 
 ## Notes
 
-- Given more time I'd add a mobile menu to make the navigation more scalable in mobile view
-- Ideally I'd also add Jest and pre-commit hooks using Husky
+- Ideally I'd also add Jest test cases and pre-commit hooks using Husky
